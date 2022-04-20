@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+
+<body>
+   <section>
+        <h1>First Form</h1> 
+            <form action="/Colton">
+
+                <p>
+                    <!-- this is the box that you put your username in -->
+                    <!-- for and id need to have the same name "username" this is the id name and it binds the two together -->
+                        <label for="username">Enter a Name</label>
+                        <input id="username" type="text" placeholder="colton" name="username">
+
+
+                </p>
+        
+                 <p>
+                    <!-- this is the box you put your password in -->
+                        <label for="password">Enter a Password</label>
+                        <input id="password" type="text" placeholder="coltonpassword" name="password">
+
+                    <!-- this creates a button to submit the username and password, button needs to be inside the form to know where to send the information in the boxes to -->
+                        <button>Submit</button>
+
+                </p>
+
+            </form>
+
+        </section>
+
+        <!-- new setion will start a new group of content on the webpage -->
+        <section>
+            <!-- h1 is the header indicating what this portion of code will be about -->
+            
+            <h1>Query Strings</h1>
+            
+            <!-- everything needs to be inside the form so the process knows what to do with the code, so they are bound  -->
+                <form action="https://www.reddit.com/search/">
+                    <input type="text" name="q">
+                    <button>Search Reddit</button>
+                </form>
+                <!-- the action is the search query -->
+                <form action="https://www.youtube.com/results?search_query=">
+                    <!-- each attribute needs to have a name (the type is text)
+                    the name is q because we are going to query -->
+                    <input type="text" name="q">
+                    <button>Youtube Search</button>
+                </form> 
+            <!--new form and field to fill out for google  -->
+                <form action="https://www.google.com/search">
+                    <input type="text" name="q">
+                    <!-- the text in between the button is what will show on the sumbit box -->
+                    <button>Google Search</button>
+                </form>
+                
+        </section>
+<body>
+</html>
