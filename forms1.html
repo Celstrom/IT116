@@ -63,15 +63,19 @@
                 
         </section>
 
-        <!--  -->
+        <!-- Creating a new section for checkboxes and radio buttons, h1 is the title of this specific section -->
         <section>
             <h1>Checkboxes and Radio Buttons</h1>
-                <form>
-                    <!-- the id is unique and used to link other code together -->
-                    <input type="checkbox" name="agree_tos" id="agree">
+                <!-- the form element is to indicate values that can be changed in a specific section -->
+            <form>
+                    <!-- the id or "for" is unique and used to link other code together -->
                     <label for="agree">I agree to everything</label>
-
-                    <p>
+                    <!-- inputs indicate what element or feature you are choosing, in this case i am using a checkbox and the id is the same as the label to bind together -->
+                    <input type="checkbox" name="agree_tos" id="agree">
+                    
+                <!-- another section with three seperate buttons, the label is is s, m, and l
+                the button is created by the type saying "radio" -->
+                    <p> 
                         <label for="s">Small</label>
                         <input type="radio" name="size" id="s">
                         
@@ -84,7 +88,9 @@
                         
                     </p>
 
-                    <!-- In the code below, I added a paragraph element (p), then i added a label to ask a question   -->
+                    <!-- In the code below, I added a paragraph element (p), then i added a label to ask the question, What is your fav color?
+                    the Select element allows you to choose from a group of options, in this case being colors red, blue and green.
+                the text within the select code is what will appear in the list to choose from   -->
 
                     <p>
 
@@ -103,48 +109,71 @@
 
                     </p>
 
-                    <!--  -->
-
+                    <!-- for making a scroll bar, i add a label and then make it for "sbar" which is also the id. After that I name it Coltons Scroll Bar  -->
+                    <!-- to create the scrollbar i use "range" in the type field, then i add the min and max values that the scroll bar can go -->
+                    
+                    <hr>
+                    
                     <p>
 
                         <label for="sbar">Colton's Scroll Bar</label>
                             <input type="range" id="sbar" min="5" max="10" name="scrollbar">
 
+                    
+                    </p>
 
+                    <!-- line breaking up text -->
+                    <hr>
+
+                    <!-- to make a text box i add textarea command and specify how large I want the box to be with rows and columns, the placeholder is what the text box will read with no text -->
+                    <p>
+
+                        <label for="request">Type in special request</label>
+                        <textarea id="request" name="TextArea" rows="15" columns="15" placeholder="Type Here"></textarea>
 
                     </p>
                     
                     
-                    
+                    <!-- a button that says colton -->
                     <button>Colton</button>
 
+            </form>
 
+    </section>
 
+<!-- adding a line between sections with hr -->
+    
+    <hr>
 
+        <section>
+            
+            <form action="Bananas">
 
+            <!-- Adding another text box except for this one if it is left empty a popup will say this field is required -->
+                <label for="Colton">TextBox</label>
+                <input type="Text" name="TextBox" id="Colton" required>
 
+                <!--Another text box and in this one the minimum length is 5 characters, for a password and the max length is 10  -->
+                <p>
+                <label for="password"></label>
+                <input type="text" name="pword" id="password" minlength="5" maxlength="10">
+                </p>
+               
+                <p>
+                <!--  for this text box the @ symbol is required since it is for an email only -->
+                <input type="email" required>
+            
+                </p>
+                
+                <button type="Submit">Validation Button</button>
 
+                
+            
+            
+            
             </form>
 
 
 
-
-
-
-
-
-
-
-        </section>
-
-
-
-
-
-
-
-
-
-
-        <body>
+    <body>
 </html>
