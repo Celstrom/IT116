@@ -1,0 +1,30 @@
+
+/* whatever piece of html code youw ant to alter, type and put the squiggly bracket, followed by the color element, type your color and DONT FORGET TO PUT THE SEMI COLON */
+
+h1 { 
+color:green; 
+}
+
+
+/* changing the color of the h2 header on our html skeleton */
+h2{
+color:purple;
+}
+
+
+/* changing the font color and background color of font for this paragraph, remember semi colon */
+p {
+color:pink;
+background-color:green;
+}
+
+
+
+/* when changing text color all you need is color element
+background color element changes background color behind text */
+button {
+color:white;
+background-color:blue;
+}
+
+/* make sure to close the bracket at the end of your code :) */
