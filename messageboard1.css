@@ -1,0 +1,59 @@
+
+/* the star is the universal selector for the entire page */
+
+/* * {
+color:pink;
+background-color:green;
+} */
+
+
+/* Element selector, changes whatever is in that particular section of html */
+
+body {
+ 
+    background-color:azure;
+}
+
+/* this changes anything with the button attribute, for example button size/font size of buttons */
+button {
+
+    font-size: 30px;
+}
+
+
+/* this is a multiple selector, can change more than one element at a time, example: changing color of the h1 and h2 headers together */
+h1,h2 {
+
+color: crimson;
+
+}
+
+/* linking id's with the #, my signup button on the html code is called Signup,
+so to change the color of that particular button, I use # followed by the specific id to that button */
+#Signup {
+
+background-color: pink;
+color: blue;
+
+}
+
+/* class selector is indicated by a . (period), looks for anything that has a class of "tag" */
+.tag {
+
+    color: purple;
+
+}
+
+
+.post a{
+
+color:purple;
+
+}
+
+/*this is descendant selector  */
+
+footer a {
+    color: orange;
+
+}

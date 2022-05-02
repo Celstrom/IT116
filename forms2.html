@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="forms2">
     
     <!-- Starting out the webpage with an h1 tag which will be the header at the top of the webpage -->
     
@@ -14,53 +15,50 @@
             
     <!-- adding a "p" or paragraph tag which will separate the info and have my paragraphs go down the screen in a nice orderly fashion, if the "p" tag is missing then the info will just run to the right in a jumbled fashion  -->
         
-        <p>
+            <p>
         
             <!--the label tag is used as a caption for the Username text box, the input element has the same id as the label which binds those two properties together  -->
-        <label for="username">First Name</label>
-        <input id="username" type="text" placeholder="First Name" name="username">
+                <label for="username">First Name</label>
+                <input id="username" type="text" placeholder="First Name" name="username">
         
         
         
-        <p>
+            <p>
 
             <!-- the beginning of a new paragraph which will drop the password box directly below the username box -->
             <!--Same as above, the label and input are linked together through the id, to specify that it is a text box we put "text" for the type of feature we are using  -->
-        <label for="password">Last Name</label>
-        <input id="password" type="text" placeholder="Last Name" name="password">
+                <label for="password">Last Name</label>
+                <input id="password" type="text" placeholder="Last Name" name="password">
 
        
 
             <!-- another section beneath is this drop down menu with different meats, the select element lets you pick from a selection of choices in a drop down menu and the option element are the items in the drop down (values are the names of items in the dropdown) -->
-        <p>
+            <p>
 
-            <label for="meats">What food would you like to eat?</label>
+                <label for="meats">What food would you like to eat?</label>
                 
-                <select name="meats" id="meats">
+                    <select name="meats" id="meats">
                     
-                    <option value="Chicken">Chicken</option>
-                    
-                    <option value="Beef">Beef</option>
-                    
-                    <option value="Fish">Fish</option>
+                        <option value="Chicken">Chicken</option>
+                        <option value="Beef">Beef</option>
+                        <option value="Fish">Fish</option>
                 
-                
-                </select>
+                    </select>
 
-        </p>
+            </p>
          
         <!-- this section is a label asking a question, with the textarea element creating a text box to the right of the question. The id's are linked and the size of the text box is shown by the rows and columns -->
-        <p>
+            <p>
 
-            <label for="request">Do you have any allergies?</label>
-            <textarea id="request" name="TextArea" rows="5" columns="5" placeholder="Type Allergies Here"></textarea>
+                <label for="request">Do you have any allergies?</label>
+                <textarea id="request" name="TextArea" rows="5" columns="5" placeholder="Type Allergies Here"></textarea>
 
-        </p>
+            </p>
 
         <!-- a send button to submit our forms -->
         <button>Send</button>
 
-
+    </form>
     
 </body>
 </html>
