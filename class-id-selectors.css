@@ -1,0 +1,28 @@
+.crimson {
+    color: crimson;}
+
+
+.greenish {
+    color:green;}
+
+
+.yellowish {
+    color: rgb(144, 144, 58);}
+
+
+.red {
+    color:red;}
+
+
+.burnt {
+    color:orange;}
+
+
+#yes {
+    background-color:green;
+    color:white;}
+
+
+#no {
+    background-color: red;
+    color:white;}

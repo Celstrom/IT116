@@ -57,3 +57,40 @@ footer a {
     color: orange;
 
 }
+
+/*  */
+a[href*="google"] {
+
+    color:orange;
+
+}
+
+/* Pseudo class */
+
+button:hover {
+
+    background-color: red;
+    color: aquamarine;
+
+}
+
+/*  */
+.post button:active{
+
+    background-color: green;
+
+}
+
+/*  */
+h2::first-letter {
+
+    font-size:50px;
+
+}
+
+/* this is a pseudo element */
+
+p::first-line {
+
+    color:green
+}
