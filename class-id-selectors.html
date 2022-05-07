@@ -6,30 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colton's favorite hockey teams</title>
 
+    <!--a link connecting my html to my css style sheet  -->
     <link rel="stylesheet" href="class-id-selectors.css">
 
 </head>
+<!--A heading at the top of my list, h1 (biggest size font)  -->
     <h1>List of College Football teams</h1>
         <body>
-            <section>
-                <ol>
-                    <li class="crimson">Alabama</li>
-                    <li class="greenish">Notre Dame</li>
-                    <li class="yellowish">Michigan</li>
-                    <li class="red">Ohio State</li>
-                    <li class="crimson">Oklahoma</li>
-                    <li class="red">Southern California</li>
-                    <li class="burnt">Texas</li>
-                    <li class="greenish">Miami</li>
-                    <li class="red">Nebraska</li>
-                </ol>
-
+            <!--a form element with action attribute to make my button work  -->
+            <form action="send">
+                <!-- an ol makes a numbered list for my teams -->
+                    <ol>
+                        <!--the items in my list are created by ther li element, and I am using the class selector to change the colors on the list items via my css code   -->
+                        <li class="crimson">Alabama</li>
+                        <li class="greenish">Notre Dame</li>
+                        <li class="yellowish">Michigan</li>
+                        <li class="red">Ohio State</li>
+                        <li class="crimson">Oklahoma</li>
+                        <li class="red">Southern California</li>
+                        <li class="burnt">Texas</li>
+                        <li class="greenish">Miami</li>
+                        <li class="red">Nebraska</li>
+                    </ol>
+                    <!-- this is my button, using an id selector to change the color of the font and background colors -->
             <button id="yes">Yes I agree</button><button id="no">No I don't agree</button>
 
+            
 
-
-    </section>
-
-    
-</body>
+            </form>
+        </body>
 </html>

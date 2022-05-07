@@ -1,11 +1,12 @@
+/* using the class selector to change the color of specific items in my list, in this case, any class that is named "crimson" in my html will be changed */
 .crimson {
     color: crimson;}
 
-
+/* any class named greenish will be changed */
 .greenish {
     color:green;}
 
-
+/* any class in html named yellowish will be changed */
 .yellowish {
     color: rgb(144, 144, 58);}
 
@@ -17,12 +18,14 @@
 .burnt {
     color:orange;}
 
-
+/* using the id selector with a #, any html code with an "id" in front will be changed to whatever i put in the css rule, in this case, if the html has id=yes it is changing button to green and button font to white */
 #yes {
     background-color:green;
     color:white;}
 
-
+/* same as above, except in this case if the html id=no the color and background will change  */
 #no {
     background-color: red;
     color:white;}
+
+    
