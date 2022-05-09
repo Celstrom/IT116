@@ -1,0 +1,10 @@
+/* css rule that changes the font color of all anchor tags in the h1 element */
+h1 a {
+    color:blueviolet;
+    font-size:30px;
+}
+
+/* any anchor tag with the href of schools will be changed */
+a[href*="schools"] {
+    color:aqua;
+}
